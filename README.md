@@ -9,11 +9,15 @@ e.g. +P83 Flash - Light SSTO or ~SAR Prototype - Jet Hovercraft - v02
 _Prefixes_
 
 -> + = completed and tested design
+
 -> @ = shared work in progress design concept
+
 -> ~ = local work in progress design concept (.gitignore file ignores these)
+
 -> - = failed design concept (.gitignore file ignores these)
 
 _Types_
 
 -Consider including a scale/size, e.g. medium, heavy, short
+
 -Consider including a role, e.g. SSTO, SAR, Rover, etc. (combine with commas as needed)
