@@ -1,0 +1,10 @@
+# Quicksave
+quicksave.sfs
+
+# Assembly autosave
+Ships/SPH/Auto-Saved Ship.craft
+Ships/VAB/Auto-Saved Ship.craft
+
+# Local unshared files
+~*.craft
+-*.craft
