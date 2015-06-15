@@ -4,6 +4,7 @@ KSP R&D sandbox for engineering and procedure development
 __Suggested craft naming conventions__
 
 Pattern: <Prefix>[Short Desigation ]Name - <Type>[ - v<Version>]
+
 e.g. +P83 Flash - Light SSTO or ~SAR Prototype - Jet Hovercraft - v02
 
 _Prefixes_
