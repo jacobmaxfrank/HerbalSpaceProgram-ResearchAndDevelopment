@@ -1,31 +1,31 @@
-ship = Gravity Shrugged
+ship = +Gravity Shrugged
 version = 1.0.2
-description = Heavy launch rocket based on the Atlas 5
+description = Heavy launch rocket based on Atlas V
 type = None
-size = 8.351214,34.31787,8.351212
+size = 7.400706,32.44978,7.229793
 PART
 {
-	part = decoupler1-2_4285030034
+	part = decoupler1-2_4294730992
 	partName = Part
-	pos = 5.834278,31.95348,6.02934
+	pos = 1.272783,19.92479,1.790313
 	attPos = 0,0,0
-	attPos0 = 5.834278,31.95348,6.02934
+	attPos0 = 1.272783,19.92479,1.790313
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Mirror
-	istg = 1
+	istg = 0
 	dstg = 1
-	sidx = 0
-	sqor = 1
-	sepI = 1
+	sidx = 1
+	sqor = 0
+	sepI = 0
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = asasmodule1-2_4285029964
-	attN = bottom,asasmodule1-2_4285029964
+	link = asasmodule1-2_4294730918
+	attN = bottom,asasmodule1-2_4294730918
 	EVENTS
 	{
 	}
@@ -95,9 +95,9 @@ PART
 }
 PART
 {
-	part = asasmodule1-2_4285029964
+	part = asasmodule1-2_4294730918
 	partName = Part
-	pos = 5.834278,31.33801,6.02934
+	pos = 1.272783,19.30932,1.790313
 	attPos = 0,0,0
 	attPos0 = 0,-0.615469,0
 	rot = 0,0,0,1
@@ -109,14 +109,14 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = fuelTank1-2_4285029936
-	attN = top,decoupler1-2_4285030034
-	attN = bottom,fuelTank1-2_4285029936
+	link = fuelTank1-2_4294730886
+	attN = top,decoupler1-2_4294730992
+	attN = bottom,fuelTank1-2_4294730886
 	EVENTS
 	{
 	}
@@ -166,9 +166,9 @@ PART
 }
 PART
 {
-	part = fuelTank1-2_4285029936
+	part = fuelTank1-2_4294730886
 	partName = Part
-	pos = 5.834278,29.21301,6.02934
+	pos = 1.272783,17.18432,1.790313
 	attPos = 0,0,0
 	attPos0 = 0,-2.125,0
 	rot = 0,0,0,1
@@ -180,14 +180,14 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = adapterMk3-Size2_4285029906
-	attN = top,asasmodule1-2_4285029964
-	attN = bottom,adapterMk3-Size2_4285029906
+	link = adapterMk3-Size2_4294730852
+	attN = top,asasmodule1-2_4294730918
+	attN = bottom,adapterMk3-Size2_4294730852
 	EVENTS
 	{
 	}
@@ -220,9 +220,9 @@ PART
 }
 PART
 {
-	part = adapterMk3-Size2_4285029906
+	part = adapterMk3-Size2_4294730852
 	partName = Part
-	pos = 5.834278,25.46301,6.02934
+	pos = 1.272783,13.43431,1.790313
 	attPos = 0,0,0
 	attPos0 = 0,-3.75,0
 	rot = 0,0,0,1
@@ -234,14 +234,16 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = Size3AdvancedEngine_4285029870
-	attN = top,fuelTank1-2_4285029936
-	attN = bottom,Size3AdvancedEngine_4285029870
+	link = Size3AdvancedEngine_4294730812
+	link = strutConnector_4294730022
+	link = strutConnector_4294729956
+	attN = top,fuelTank1-2_4294730886
+	attN = bottom,Size3AdvancedEngine_4294730812
 	EVENTS
 	{
 	}
@@ -274,9 +276,9 @@ PART
 }
 PART
 {
-	part = Size3AdvancedEngine_4285029870
+	part = Size3AdvancedEngine_4294730812
 	partName = Part
-	pos = 5.834278,22.10004,6.02934
+	pos = 1.272783,10.07124,1.790313
 	attPos = 0,0,0
 	attPos0 = 0,-3.362974,0
 	rot = 0,0,0,1
@@ -284,18 +286,18 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 1
 	dstg = 2
 	sidx = 0
-	sqor = 2
-	sepI = 1
+	sqor = 1
+	sepI = 0
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = size3Decoupler_4285029766
-	attN = top,adapterMk3-Size2_4285029906
-	attN = bottom,size3Decoupler_4285029766
+	link = size3Decoupler_4294730704
+	attN = top,adapterMk3-Size2_4294730852
+	attN = bottom,size3Decoupler_4294730704
 	EVENTS
 	{
 	}
@@ -519,9 +521,9 @@ PART
 }
 PART
 {
-	part = size3Decoupler_4285029766
+	part = size3Decoupler_4294730704
 	partName = Part
-	pos = 5.834278,19.12901,6.02934
+	pos = 1.272783,7.100193,1.790313
 	attPos = 0,0,0
 	attPos0 = 0,-2.971022,0
 	rot = 0,0,0,1
@@ -529,18 +531,19 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 1
 	dstg = 3
 	sidx = 1
-	sqor = 2
-	sepI = 2
+	sqor = 1
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = Size3MediumTank_4285029724
-	attN = top,Size3AdvancedEngine_4285029870
-	attN = bottom,Size3MediumTank_4285029724
+	link = Size3MediumTank_4294730658
+	link = strutConnector_4294730088
+	attN = top,Size3AdvancedEngine_4294730812
+	attN = bottom,Size3MediumTank_4294730658
 	EVENTS
 	{
 	}
@@ -588,9 +591,9 @@ PART
 }
 PART
 {
-	part = Size3MediumTank_4285029724
+	part = Size3MediumTank_4294730658
 	partName = Part
-	pos = 5.834278,16.76146,6.02934
+	pos = 1.272783,4.732653,1.790313
 	attPos = 0,0,0
 	attPos0 = 0,-2.367558,0
 	rot = 0,0,0,1
@@ -602,14 +605,17 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = Size3MediumTank_4285029694
-	attN = top,size3Decoupler_4285029766
-	attN = bottom,Size3MediumTank_4285029694
+	link = Size3MediumTank_4294730624
+	link = launchClamp1_4294730430
+	link = launchClamp1_4294730316
+	link = launchClamp1_4294730202
+	attN = top,size3Decoupler_4294730704
+	attN = bottom,Size3MediumTank_4294730624
 	EVENTS
 	{
 	}
@@ -642,9 +648,9 @@ PART
 }
 PART
 {
-	part = Size3MediumTank_4285029694
+	part = Size3MediumTank_4294730624
 	partName = Part
-	pos = 5.834278,12.89346,6.02934
+	pos = 1.272783,0.8646183,1.790313
 	attPos = 0,0,0
 	attPos0 = 0,-3.868,0
 	rot = 0,0,0,1
@@ -656,14 +662,14 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = Size3MediumTank_4285029664
-	attN = top,Size3MediumTank_4285029724
-	attN = bottom,Size3MediumTank_4285029664
+	link = Size3MediumTank_4294730590
+	attN = top,Size3MediumTank_4294730658
+	attN = bottom,Size3MediumTank_4294730590
 	EVENTS
 	{
 	}
@@ -696,9 +702,9 @@ PART
 }
 PART
 {
-	part = Size3MediumTank_4285029664
+	part = Size3MediumTank_4294730590
 	partName = Part
-	pos = 5.834278,9.025452,6.02934
+	pos = 1.272783,-3.003468,1.790313
 	attPos = 0,0,0
 	attPos0 = 0,-3.868,0
 	rot = 0,0,0,1
@@ -710,18 +716,14 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = launchClamp1_4285029634
-	link = launchClamp1_4285029524
-	link = launchClamp1_4285029414
-	link = launchClamp1_4285029304
-	link = Size3EngineCluster_4285029194
-	attN = top,Size3MediumTank_4285029694
-	attN = bottom,Size3EngineCluster_4285029194
+	link = Size3EngineCluster_4294730556
+	attN = top,Size3MediumTank_4294730624
+	attN = bottom,Size3EngineCluster_4294730556
 	EVENTS
 	{
 	}
@@ -754,558 +756,26 @@ PART
 }
 PART
 {
-	part = launchClamp1_4285029634
+	part = Size3EngineCluster_4294730556
 	partName = Part
-	pos = 3.177367,7.944271,6.02934
+	pos = 1.272783,-6.467764,1.790313
 	attPos = 0,0,0
-	attPos0 = -2.656909,-1.081179,2.086163E-07
-	rot = -8.479951E-09,0.7071068,8.479951E-09,0.7071068
-	attRot = 0,0,0,1
-	attRot0 = -8.479948E-09,0.7071068,8.479948E-09,0.7071068
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 3
-	dstg = 4
-	sidx = 0
-	sqor = 3
-	sepI = 3
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = launchClamp1_4285029524
-	sym = launchClamp1_4285029414
-	sym = launchClamp1_4285029304
-	srfN = srfAttach,Size3MediumTank_4285029664
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = LaunchClamp
-		isEnabled = True
-		scaleFactor = 3.410126
-		height = 8.604422
-		towerRot = 8.479951E-09,-0.7071068,-8.479951E-09,0.7071068
-		EVENTS
-		{
-			Release
-			{
-				active = False
-				guiActive = True
-				guiIcon = Release Clamp
-				guiName = Release Clamp
-				category = Release Clamp
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ReleaseClamp
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Generator
-				guiName = Activate Generator
-				category = Activate Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = True
-				guiActive = True
-				guiIcon = Shutdown Generator
-				guiName = Shutdown Generator
-				category = Shutdown Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
-		isEnabled = True
-		EVENTS
-		{
-			RunTestEvent
-			{
-				active = False
-				guiActive = True
-				guiIcon = Run Test
-				guiName = Run Test
-				category = Run Test
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = launchClamp1_4285029524
-	partName = Part
-	pos = 5.834278,7.944271,8.68625
-	attPos = 0,0,0
-	attPos0 = 5.215406E-08,-1.081179,2.656909
-	rot = 0,1,1.199246E-08,0
-	attRot = 0,0,0,1
-	attRot0 = 0,1,1.199246E-08,0
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 3
-	dstg = 4
-	sidx = 1
-	sqor = 3
-	sepI = 3
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = launchClamp1_4285029634
-	sym = launchClamp1_4285029414
-	sym = launchClamp1_4285029304
-	srfN = srfAttach,Size3MediumTank_4285029664
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = LaunchClamp
-		isEnabled = True
-		scaleFactor = 3.410126
-		height = 8.604422
-		towerRot = 0,-1,-1.199246E-08,0
-		EVENTS
-		{
-			Release
-			{
-				active = False
-				guiActive = True
-				guiIcon = Release Clamp
-				guiName = Release Clamp
-				category = Release Clamp
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ReleaseClamp
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Generator
-				guiName = Activate Generator
-				category = Activate Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = True
-				guiActive = True
-				guiIcon = Shutdown Generator
-				guiName = Shutdown Generator
-				category = Shutdown Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
-		isEnabled = True
-		EVENTS
-		{
-			RunTestEvent
-			{
-				active = False
-				guiActive = True
-				guiIcon = Run Test
-				guiName = Run Test
-				category = Run Test
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = launchClamp1_4285029414
-	partName = Part
-	pos = 8.491188,7.944271,6.02934
-	attPos = 0,0,0
-	attPos0 = 2.656909,-1.081179,-4.395843E-07
-	rot = 8.47995E-09,0.7071068,8.47995E-09,-0.7071068
-	attRot = 0,0,0,1
-	attRot0 = 8.479948E-09,0.7071068,8.479948E-09,-0.7071069
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 3
-	dstg = 4
-	sidx = 2
-	sqor = 3
-	sepI = 3
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = launchClamp1_4285029634
-	sym = launchClamp1_4285029524
-	sym = launchClamp1_4285029304
-	srfN = srfAttach,Size3MediumTank_4285029664
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = LaunchClamp
-		isEnabled = True
-		scaleFactor = 3.410126
-		height = 8.604422
-		towerRot = -8.47995E-09,-0.7071068,-8.47995E-09,-0.7071068
-		EVENTS
-		{
-			Release
-			{
-				active = False
-				guiActive = True
-				guiIcon = Release Clamp
-				guiName = Release Clamp
-				category = Release Clamp
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ReleaseClamp
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Generator
-				guiName = Activate Generator
-				category = Activate Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = True
-				guiActive = True
-				guiIcon = Shutdown Generator
-				guiName = Shutdown Generator
-				category = Shutdown Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
-		isEnabled = True
-		EVENTS
-		{
-			RunTestEvent
-			{
-				active = False
-				guiActive = True
-				guiIcon = Run Test
-				guiName = Run Test
-				category = Run Test
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = launchClamp1_4285029304
-	partName = Part
-	pos = 5.834278,7.944271,3.372432
-	attPos = 0,0,0
-	attPos0 = -3.650784E-07,-1.081179,-2.656909
-	rot = 1.199246E-08,0,0,-1
-	attRot = 0,0,0,1
-	attRot0 = 1.199246E-08,0,0,-1
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 3
-	dstg = 4
-	sidx = 3
-	sqor = 3
-	sepI = 3
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = launchClamp1_4285029634
-	sym = launchClamp1_4285029524
-	sym = launchClamp1_4285029414
-	srfN = srfAttach,Size3MediumTank_4285029664
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = LaunchClamp
-		isEnabled = True
-		scaleFactor = 3.410126
-		height = 8.604422
-		towerRot = -1.199246E-08,0,0,-1
-		EVENTS
-		{
-			Release
-			{
-				active = False
-				guiActive = True
-				guiIcon = Release Clamp
-				guiName = Release Clamp
-				category = Release Clamp
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ReleaseClamp
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Generator
-				guiName = Activate Generator
-				category = Activate Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = True
-				guiActive = True
-				guiIcon = Shutdown Generator
-				guiName = Shutdown Generator
-				category = Shutdown Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
-		isEnabled = True
-		EVENTS
-		{
-			RunTestEvent
-			{
-				active = False
-				guiActive = True
-				guiIcon = Run Test
-				guiName = Run Test
-				category = Run Test
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = Size3EngineCluster_4285029194
-	partName = Part
-	pos = 5.834278,5.561203,6.02934
-	attPos = 0,0,0
-	attPos0 = 0,-3.464249,0
+	attPos0 = 0,-3.464263,0
 	rot = 0,-0.7071068,0,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 2
 	dstg = 4
-	sidx = 4
-	sqor = 3
-	sepI = 2
+	sidx = 0
+	sqor = 2
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	attN = top,Size3MediumTank_4285029664
+	attN = top,Size3MediumTank_4294730590
 	EVENTS
 	{
 	}
@@ -1474,5 +944,577 @@ PART
 		isTweakable = False
 		hideFlow = True
 		flowMode = Both
+	}
+}
+PART
+{
+	part = launchClamp1_4294730430
+	partName = Part
+	pos = 1.272783,4.317291,-0.8759035
+	attPos = 0,0,0
+	attPos0 = -4.769992E-07,-0.4153576,-2.666216
+	rot = 5.437204E-07,2.528811E-07,-1.406803E-13,1
+	attRot = 0,0,0,1
+	attRot0 = 5.437204E-07,2.528811E-07,-1.406803E-13,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 4
+	sidx = 1
+	sqor = 2
+	sepI = 2
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = launchClamp1_4294730316
+	sym = launchClamp1_4294730202
+	srfN = srfAttach,Size3MediumTank_4294730658
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		scaleFactor = 1.972675
+		height = 4.977444
+		towerRot = -5.437204E-07,-2.528811E-07,1.406803E-13,1
+		EVENTS
+		{
+			Release
+			{
+				active = False
+				guiActive = True
+				guiIcon = Release Clamp
+				guiName = Release Clamp
+				category = Release Clamp
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ReleaseClamp
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = launchClamp1_4294730316
+	partName = Part
+	pos = -1.036229,4.317291,3.123423
+	attPos = 0,0,0
+	attPos0 = -2.309011,-0.4153576,1.333109
+	rot = 2.7186E-07,0.8660257,-4.708757E-07,0.4999997
+	attRot = 0,0,0,1
+	attRot0 = 2.7186E-07,0.8660256,-4.708757E-07,0.4999997
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 4
+	sidx = 2
+	sqor = 2
+	sepI = 2
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = launchClamp1_4294730430
+	sym = launchClamp1_4294730202
+	srfN = srfAttach,Size3MediumTank_4294730658
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		scaleFactor = 1.972675
+		height = 4.977444
+		towerRot = -2.7186E-07,-0.8660256,4.708757E-07,0.4999997
+		EVENTS
+		{
+			Release
+			{
+				active = False
+				guiActive = True
+				guiIcon = Release Clamp
+				guiName = Release Clamp
+				category = Release Clamp
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ReleaseClamp
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = launchClamp1_4294730202
+	partName = Part
+	pos = 3.581797,4.317291,3.123422
+	attPos = 0,0,0
+	attPos0 = 2.309011,-0.4153576,1.333108
+	rot = -2.718603E-07,0.8660253,-4.708756E-07,-0.5000002
+	attRot = 0,0,0,1
+	attRot0 = -2.718604E-07,0.8660253,-4.708756E-07,-0.5000003
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 4
+	sidx = 3
+	sqor = 2
+	sepI = 2
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = launchClamp1_4294730430
+	sym = launchClamp1_4294730316
+	srfN = srfAttach,Size3MediumTank_4294730658
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		scaleFactor = 1.972675
+		height = 4.977444
+		towerRot = 2.718603E-07,-0.8660253,4.708756E-07,-0.5000002
+		EVENTS
+		{
+			Release
+			{
+				active = False
+				guiActive = True
+				guiIcon = Release Clamp
+				guiName = Release Clamp
+				category = Release Clamp
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ReleaseClamp
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4294730088
+	partName = CompoundPart
+	pos = 1.272781,6.926563,3.654173
+	attPos = 0,0,0
+	attPos0 = -4.443719E-07,-0.1736145,1.863835
+	rot = 4.337074E-07,0.7071068,4.337074E-07,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 4.337053E-07,0.7071068,4.337053E-07,0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,size3Decoupler_4294730704
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 0
+		pos = -2.90406,8.708929,-0.0131099
+		rot = 0,-5.479092E-07,-0.7071076,0.7071061
+		dir = -0.3163325,0.9486473,-0.00142814
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4294730022
+	partName = CompoundPart
+	pos = -0.3023591,13.49947,1.790314
+	attPos = 0,0,0
+	attPos0 = -1.575136,0.06517029,5.095717E-07
+	rot = -3.687849E-08,3.371748E-07,-0.09961616,0.9950259
+	attRot = 0,0,0,1
+	attRot0 = -3.161013E-08,3.371748E-07,-0.09961619,0.9950259
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4294729956
+	srfN = srfAttach,adapterMk3-Size2_4294730852
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 0
+		pos = -1.576842,9.651233,-0.255431
+		rot = 0,-5.330706E-06,0.9950261,-0.09961521
+		dir = -0.1611893,0.986578,-0.026111
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4294729956
+	partName = CompoundPart
+	pos = 2.847925,13.49947,1.790313
+	attPos = 0,0,0
+	attPos0 = 1.575136,0.06517029,-6.287813E-07
+	rot = -0.09961614,0.995026,3.161014E-08,-4.214685E-07
+	attRot = 0,0,0,1
+	attRot0 = -0.09961619,0.9950259,3.161013E-08,-4.214685E-07
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4294730022
+	srfN = srfAttach,adapterMk3-Size2_4294730852
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 0
+		pos = -1.456911,8.917192,-0.2360054
+		rot = 0,-1.762825E-07,-0.6331496,0.7740294
+		dir = -0.1611893,0.986578,-0.026111
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
 	}
 }

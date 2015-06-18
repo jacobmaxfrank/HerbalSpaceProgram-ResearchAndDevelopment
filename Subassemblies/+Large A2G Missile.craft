@@ -1,18 +1,18 @@
-ship = Large A2G Missile
+ship = +Large A2G Missile
 version = 1.0.2
-description = Air to ground missile with pylon
+description = Large air to ground missile + hardpoint pylon
 type = None
-size = 1.707434,0.8441029,4.648564
+size = 0.8441035,4.648563,1.707435
 PART
 {
-	part = radialDecoupler_4293023312
+	part = radialDecoupler_4294727366
 	partName = Part
-	pos = 1.725608,3.378262,-2.666799
+	pos = 1.209476,20.02341,1.879797
 	attPos = 0,0,0
-	attPos0 = 1.725608,3.378262,-2.666799
-	rot = 0.5,0.5,0.5,0.5
-	attRot = 0,0.7071068,0,0.7071068
-	attRot0 = 0.7071068,0,0,0.7071068
+	attPos0 = 1.209476,20.02341,1.879797
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 4
@@ -24,8 +24,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = miniFuelTank_4293023260
-	srfN = srfAttach,deltaWing_4291059300
+	link = miniFuelTank_4294727318
 	EVENTS
 	{
 	}
@@ -95,12 +94,12 @@ PART
 }
 PART
 {
-	part = miniFuelTank_4293023260
+	part = miniFuelTank_4294727318
 	partName = Part
-	pos = 1.725612,2.899434,-2.094475
+	pos = 0.7306485,20.59573,1.879801
 	attPos = 0,0,0
 	attPos0 = -0.4788262,0.5723182,-5.674828E-09
-	rot = 0.4999998,0.5,0.5000002,0.4999999
+	rot = -1.490116E-07,2.682209E-07,2.980232E-08,1
 	attRot = 0,0,0,1
 	attRot0 = -2.989607E-08,-1.492303E-07,2.084599E-07,1
 	mir = 1,1,1
@@ -114,11 +113,11 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = miniFuelTank_4293023226
-	link = miniFuelTank_4293022880
-	srfN = srfAttach,radialDecoupler_4293023312
-	attN = top,miniFuelTank_4293022880
-	attN = bottom,miniFuelTank_4293023226
+	link = miniFuelTank_4294727288
+	link = miniFuelTank_4294726978
+	srfN = srfAttach,radialDecoupler_4294727366
+	attN = top,miniFuelTank_4294726978
+	attN = bottom,miniFuelTank_4294727288
 	EVENTS
 	{
 	}
@@ -151,12 +150,12 @@ PART
 }
 PART
 {
-	part = miniFuelTank_4293023226
+	part = miniFuelTank_4294727288
 	partName = Part
-	pos = 1.725608,2.899435,-2.443031
+	pos = 0.7306495,20.24717,1.879797
 	attPos = 0,0,0
 	attPos0 = 0,-0.348547,0
-	rot = 0.5000003,-0.5,-0.4999997,0.5
+	rot = -2.646978E-21,-1,2.980232E-07,2.980232E-07
 	attRot = -0.7071068,0,0,0.7071068
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -170,9 +169,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = miniFuelTank_4293023192
-	attN = top,miniFuelTank_4293023260
-	attN = bottom,miniFuelTank_4293023192
+	link = miniFuelTank_4294727258
+	attN = top,miniFuelTank_4294727318
+	attN = bottom,miniFuelTank_4294727258
 	EVENTS
 	{
 	}
@@ -205,12 +204,12 @@ PART
 }
 PART
 {
-	part = miniFuelTank_4293023192
+	part = miniFuelTank_4294727258
 	partName = Part
-	pos = 1.725611,2.899435,-2.791582
+	pos = 0.7306495,19.89862,1.8798
 	attPos = 0,0,0
 	attPos0 = 0,-0.3485475,0
-	rot = 0.5000002,-0.4999999,-0.4999997,0.5000002
+	rot = -1.043081E-07,-1,1.043081E-07,3.725291E-07
 	attRot = -0.7071068,0,0,0.7071068
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -224,9 +223,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = miniFuelTank_4293023158
-	attN = top,miniFuelTank_4293023226
-	attN = bottom,miniFuelTank_4293023158
+	link = miniFuelTank_4294727228
+	attN = top,miniFuelTank_4294727288
+	attN = bottom,miniFuelTank_4294727228
 	EVENTS
 	{
 	}
@@ -259,12 +258,12 @@ PART
 }
 PART
 {
-	part = miniFuelTank_4293023158
+	part = miniFuelTank_4294727228
 	partName = Part
-	pos = 1.725611,2.899435,-3.140132
+	pos = 0.7306495,19.55007,1.8798
 	attPos = 0,0,0
 	attPos0 = -6.756098E-08,-0.3485475,-7.040567E-14
-	rot = -3.753177E-07,0.7071071,0.7071065,1.768986E-08
+	rot = 1.313217E-07,0.7071069,-5.243293E-07,0.7071066
 	attRot = -0.7071068,0,0,0.7071068
 	attRot0 = -1.034581E-07,-0.7071069,1.034581E-07,-0.7071068
 	mir = 1,1,1
@@ -278,9 +277,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = miniFuelTank_4293023124
-	attN = top,miniFuelTank_4293023192
-	attN = bottom,miniFuelTank_4293023124
+	link = miniFuelTank_4294727198
+	attN = top,miniFuelTank_4294727258
+	attN = bottom,miniFuelTank_4294727198
 	EVENTS
 	{
 	}
@@ -313,12 +312,12 @@ PART
 }
 PART
 {
-	part = miniFuelTank_4293023124
+	part = miniFuelTank_4294727198
 	partName = Part
-	pos = 1.725608,2.899436,-3.488683
+	pos = 0.7306504,19.20152,1.879797
 	attPos = 0,0,0
 	attPos0 = 0,-0.348547,0
-	rot = 0.5000001,-0.4999999,0.5000001,-0.5000002
+	rot = 1.617949E-07,1.341105E-07,1,7.450581E-08
 	attRot = -0.4999999,-0.4999999,-0.4999999,-0.4999999
 	attRot0 = -0.7071068,0,-0.7071068,0
 	mir = 1,1,1
@@ -332,9 +331,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = miniFuelTank_4293023090
-	attN = top,miniFuelTank_4293023090
-	attN = bottom,miniFuelTank_4293023158
+	link = miniFuelTank_4294727168
+	attN = top,miniFuelTank_4294727168
+	attN = bottom,miniFuelTank_4294727228
 	EVENTS
 	{
 	}
@@ -367,12 +366,12 @@ PART
 }
 PART
 {
-	part = miniFuelTank_4293023090
+	part = miniFuelTank_4294727168
 	partName = Part
-	pos = 1.725612,2.899436,-3.837243
+	pos = 0.7306504,18.85296,1.879801
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -1.627985E-06,0.7071075,0.7071062,-1.233038E-06
+	rot = 4.581777E-07,0.7071083,-8.74198E-07,0.7071055
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -386,11 +385,11 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = sasModule_4293023056
-	link = basicFin_4293022948
-	link = basicFin_4293022914
-	attN = top,miniFuelTank_4293023124
-	attN = bottom,sasModule_4293023056
+	link = sasModule_4294727138
+	link = basicFin_4294727038
+	link = basicFin_4294727008
+	attN = top,miniFuelTank_4294727198
+	attN = bottom,sasModule_4294727138
 	EVENTS
 	{
 	}
@@ -423,12 +422,12 @@ PART
 }
 PART
 {
-	part = sasModule_4293023056
+	part = sasModule_4294727138
 	partName = Part
-	pos = 1.725608,2.899435,-4.102646
+	pos = 0.7306495,18.58756,1.879797
 	attPos = 0,0,0
 	attPos0 = 2.442741E-07,-0.2653859,1.95207E-07
-	rot = -3.415539E-07,0.7071074,0.7071064,1.031353E-07
+	rot = 2.948316E-07,0.707107,-7.395209E-07,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = -1.695002E-07,-8.701302E-07,-5.949943E-11,-1
 	mir = 1,1,1
@@ -442,9 +441,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = liquidEngineMini_4293023024
-	attN = bottom,liquidEngineMini_4293023024
-	attN = top,miniFuelTank_4293023090
+	link = liquidEngineMini_4294727110
+	attN = bottom,liquidEngineMini_4294727110
+	attN = top,miniFuelTank_4294727168
 	EVENTS
 	{
 	}
@@ -494,12 +493,12 @@ PART
 }
 PART
 {
-	part = liquidEngineMini_4293023024
+	part = liquidEngineMini_4294727110
 	partName = Part
-	pos = 1.725608,2.899435,-4.193764
+	pos = 0.7306495,18.49644,1.879797
 	attPos = 0,0,0
 	attPos0 = -6.351072E-09,-0.09111118,1.922119E-08
-	rot = -5.339529E-07,0.7071071,0.7071067,-3.005121E-07
+	rot = 7.263031E-08,0.7071073,-3.060711E-07,0.7071065
 	attRot = -0.7071068,0,0,0.7071068
 	attRot0 = -5.432344E-07,-1.264405E-07,-1.400608E-07,1
 	mir = 1,1,1
@@ -513,7 +512,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	attN = top,sasModule_4293023056
+	attN = top,sasModule_4294727138
 	EVENTS
 	{
 	}
@@ -670,12 +669,12 @@ PART
 }
 PART
 {
-	part = basicFin_4293022948
+	part = basicFin_4294727038
 	partName = Part
-	pos = 2.027319,2.899432,-3.851317
+	pos = 0.7306461,18.83889,2.181508
 	attPos = 0,0,0
 	attPos0 = 0.3017029,-0.01407627,5.962934E-08
-	rot = -9.163606E-07,0.7071083,0.7071055,-5.141508E-07
+	rot = 1.210141E-06,0.7071076,-1.612351E-06,0.7071062
 	attRot = 0,0,0,1
 	attRot0 = 5.291005E-08,-1,-5.481948E-07,2.721446E-07
 	mir = 1,1,1
@@ -689,7 +688,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	srfN = srfAttach,miniFuelTank_4293023090
+	srfN = srfAttach,miniFuelTank_4294727168
 	EVENTS
 	{
 	}
@@ -713,12 +712,12 @@ PART
 }
 PART
 {
-	part = basicFin_4293022914
+	part = basicFin_4294727008
 	partName = Part
-	pos = 1.423052,2.899437,-3.844815
+	pos = 0.7306516,18.84539,1.577241
 	attPos = 0,0,0
 	attPos0 = -0.3025542,-0.007568753,1.686656E-07
-	rot = -0.7071053,-7.315919E-07,-1.175757E-06,-0.7071084
+	rot = 1.78234E-06,0.7071059,1.338175E-06,-0.7071078
 	attRot = 0,0,0,1
 	attRot0 = 6.323794E-07,1.680474E-07,6.801531E-08,1
 	mir = 1,1,1
@@ -732,7 +731,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	srfN = srfAttach,miniFuelTank_4293023090
+	srfN = srfAttach,miniFuelTank_4294727168
 	EVENTS
 	{
 	}
@@ -756,12 +755,12 @@ PART
 }
 PART
 {
-	part = miniFuelTank_4293022880
+	part = miniFuelTank_4294726978
 	partName = Part
-	pos = 1.725609,2.899435,-1.745935
+	pos = 0.7306495,20.94427,1.879798
 	attPos = 0,0,0
 	attPos0 = 4.238852E-08,0.3485472,1.636313E-14
-	rot = -6.697622E-07,0.7071071,0.7071065,-4.62726E-07
+	rot = 2.243074E-07,0.7071074,-4.313437E-07,0.7071063
 	attRot = -0.7071068,0,0,0.7071068
 	attRot0 = -1.034581E-07,-0.7071069,1.034581E-07,-0.7071068
 	mir = 1,1,1
@@ -775,11 +774,11 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = miniFuelTank_4293022846
-	link = basicFin_4293022690
-	link = basicFin_4293022656
-	attN = top,miniFuelTank_4293022846
-	attN = bottom,miniFuelTank_4293023260
+	link = miniFuelTank_4294726948
+	link = basicFin_4294726808
+	link = basicFin_4294726778
+	attN = top,miniFuelTank_4294726948
+	attN = bottom,miniFuelTank_4294727318
 	EVENTS
 	{
 	}
@@ -812,12 +811,12 @@ PART
 }
 PART
 {
-	part = miniFuelTank_4293022846
+	part = miniFuelTank_4294726948
 	partName = Part
-	pos = 1.725612,2.899435,-1.397369
+	pos = 0.7306495,21.29284,1.879801
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -0.7071064,7.419227E-07,5.631088E-07,0.7071072
+	rot = -0.7071068,2.352834E-07,-0.7071069,1.069748E-06
 	attRot = 0,-0.9999999,5.960464E-08,-1.776357E-15
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -831,9 +830,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = batteryBankMini_4293022812
-	attN = top,miniFuelTank_4293022880
-	attN = bottom,batteryBankMini_4293022812
+	link = batteryBankMini_4294726918
+	attN = top,miniFuelTank_4294726978
+	attN = bottom,batteryBankMini_4294726918
 	EVENTS
 	{
 	}
@@ -866,12 +865,12 @@ PART
 }
 PART
 {
-	part = batteryBankMini_4293022812
+	part = batteryBankMini_4294726918
 	partName = Part
-	pos = 1.725614,2.899434,-1.123102
+	pos = 0.7306485,21.5671,1.879803
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 7.908216E-07,0.7071067,0.7071069,-8.504263E-07
+	rot = 7.014148E-07,0.7071069,9.398333E-07,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -885,9 +884,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = probeCoreOcto2_4293022778
-	attN = top,probeCoreOcto2_4293022778
-	attN = bottom,miniFuelTank_4293022846
+	link = probeCoreOcto2_4294726888
+	attN = top,probeCoreOcto2_4294726888
+	attN = bottom,miniFuelTank_4294726948
 	EVENTS
 	{
 	}
@@ -910,12 +909,12 @@ PART
 }
 PART
 {
-	part = probeCoreOcto2_4293022778
+	part = probeCoreOcto2_4294726888
 	partName = Part
-	pos = 1.72561,2.899434,-0.9620384
+	pos = 0.7306485,21.72817,1.879799
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 4.577909E-07,0.7071067,0.7071069,-9.942327E-07
+	rot = 6.068026E-07,0.7071071,8.452211E-07,0.7071066
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -929,9 +928,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = avionicsNoseCone_4293022740
-	attN = bottom,batteryBankMini_4293022812
-	attN = top,avionicsNoseCone_4293022740
+	link = avionicsNoseCone_4294726854
+	attN = bottom,batteryBankMini_4294726918
+	attN = top,avionicsNoseCone_4294726854
 	EVENTS
 	{
 	}
@@ -1019,12 +1018,12 @@ PART
 }
 PART
 {
-	part = avionicsNoseCone_4293022740
+	part = avionicsNoseCone_4294726854
 	partName = Part
-	pos = 1.725614,2.899434,-0.8047271
+	pos = 0.7306485,21.88548,1.879803
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 7.765694E-07,0.7071067,0.7071069,-7.169648E-07
+	rot = 6.275578E-07,0.7071068,8.659764E-07,0.7071069
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -1038,7 +1037,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	attN = bottom,probeCoreOcto2_4293022778
+	attN = bottom,probeCoreOcto2_4294726888
 	EVENTS
 	{
 	}
@@ -1067,12 +1066,12 @@ PART
 }
 PART
 {
-	part = basicFin_4293022690
+	part = basicFin_4294726808
 	partName = Part
-	pos = 2.029325,2.899436,-1.906324
+	pos = 0.7306504,20.78388,2.183514
 	attPos = 0,0,0
 	attPos0 = -0.3037123,-0.1603863,-5.359136E-08
-	rot = -1.720207E-06,0.7071071,0.7071065,-1.200421E-06
+	rot = 3.813021E-08,0.7071083,-5.579163E-07,0.7071053
 	attRot = 0,0,0,1
 	attRot0 = 3.371748E-07,7.406728E-08,-6.40843E-08,1
 	mir = 1,1,1
@@ -1086,8 +1085,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = basicFin_4293022656
-	srfN = srfAttach,miniFuelTank_4293022880
+	sym = basicFin_4294726778
+	srfN = srfAttach,miniFuelTank_4294726978
 	EVENTS
 	{
 	}
@@ -1111,12 +1110,12 @@ PART
 }
 PART
 {
-	part = basicFin_4293022656
+	part = basicFin_4294726778
 	partName = Part
-	pos = 1.421892,2.899433,-1.90632
+	pos = 0.7306473,20.78388,1.576081
 	attPos = 0,0,0
 	attPos0 = 0.3037134,-0.1603849,-1.266355E-07
-	rot = -0.7071065,-2.771008E-06,-1.496192E-07,-0.7071071
+	rot = -1.012671E-06,0.7071053,1.608718E-06,-0.7071083
 	attRot = 0,0,0,1
 	attRot0 = -2.200892E-06,1,4.214686E-07,-4.754071E-07
 	mir = 1,1,1
@@ -1130,8 +1129,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = basicFin_4293022690
-	srfN = srfAttach,miniFuelTank_4293022880
+	sym = basicFin_4294726808
+	srfN = srfAttach,miniFuelTank_4294726978
 	EVENTS
 	{
 	}
